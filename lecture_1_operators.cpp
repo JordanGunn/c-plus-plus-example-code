@@ -2,7 +2,6 @@
 // Created by Home on 9/11/2021.
 //
 
-#include "lecture_one_operators.hpp"
 #include <iostream>
 
 int operators() {

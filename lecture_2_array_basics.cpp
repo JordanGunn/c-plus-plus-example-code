@@ -2,8 +2,6 @@
 // Created by Home on 9/14/2021.
 //
 
-#include "lecture_two_array_basics.hpp"
-
 void arraySyntaxExamples() {
 
     float values[3]; // an array of 3 floats

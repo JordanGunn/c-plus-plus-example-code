@@ -4,8 +4,6 @@
 
 #include <iostream>
 
-#include "inputAndOutput.hpp"
-
 // // // // // // // // // // // // //
 // INPUT OUTPUT LIBRARY (iostream)  //
 // // // // // // // // // // // // //

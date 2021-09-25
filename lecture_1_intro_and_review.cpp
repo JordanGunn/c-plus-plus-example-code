@@ -2,7 +2,6 @@
 // Created by Home on 9/11/2021.
 //
 
-#include "lecture_one_intro_and_review.h"
 #include <iostream>
 
 // this allows us to call <iostream> functions/methods

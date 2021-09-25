@@ -4,8 +4,6 @@
 
 #include <iostream>
 
-#include "looping.hpp"
-
 int whileLoopExample() {
 
     int count = 1;

@@ -2,8 +2,6 @@
 // Created by Home on 9/14/2021.
 //
 
-#include "lecture_two_random_numbers.hpp"
-
 #include <random>
 #include <ctime>
 

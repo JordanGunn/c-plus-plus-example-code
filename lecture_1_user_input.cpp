@@ -4,7 +4,6 @@
 
 #include <iostream>
 #include <limits>
-#include "lecture_one_user_input.hpp"
 
 int getting_input_from_user() {
 

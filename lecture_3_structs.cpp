@@ -2,7 +2,6 @@
 // Created by Home on 9/21/2021.
 //
 
-#include "lecture_three_structs.hpp"
 
 void struct_example() {
 

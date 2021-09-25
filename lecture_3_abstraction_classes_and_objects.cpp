@@ -2,8 +2,6 @@
 // Created by Home on 9/21/2021.
 //
 
-#include "lecture_three_abstraction_classes_and_objects.hpp"
-
 #include <iostream>
 
 using namespace std;
@@ -32,11 +30,11 @@ public:
     }
 };
 
-int main() {
-
-    ImplementAbstraction obj{};
-    obj.set(1, 2);
-    obj.display();
-
-    return 0;
-}
+//int main() {
+//
+//    ImplementAbstraction obj{};
+//    obj.set(1, 2);
+//    obj.display();
+//
+//    return 0;
+//}

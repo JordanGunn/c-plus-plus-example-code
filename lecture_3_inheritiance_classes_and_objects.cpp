@@ -2,7 +2,6 @@
 // Created by Home on 9/21/2021.
 //
 
-#include "lecture_three_inheritiance_classes_and_objects.hpp"
 #include <iostream>
 
 using namespace std;

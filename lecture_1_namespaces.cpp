@@ -4,8 +4,6 @@
 
 #include <iostream>
 
-#include "nameSpaces.hpp"
-
 // // // // // //
 // NAMESPACES  //
 // // // // // //

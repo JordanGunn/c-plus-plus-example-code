@@ -2,7 +2,6 @@
 // Created by Home on 9/14/2021.
 //
 
-#include "lecture_two_files.hpp"
 #include <iostream>
 #include <fstream>
 

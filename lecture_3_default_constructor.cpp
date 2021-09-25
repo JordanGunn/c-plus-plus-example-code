@@ -14,10 +14,10 @@ public:
     double area(void);
 };
 
-// NOTE ABOUT CALLING OBJECTS
-void instantiate_example() {
-    Circle my_circle1; // calls the default constructor
-    Circle my_circle2(); // WARNING: THIS IS A FUNCTION PROTOTYPE
-    Circle my_circle3{}; // calls the default constructor
-}
+//// NOTE ABOUT CALLING OBJECTS
+//void instantiate_example() {
+//    Circle my_circle1; // calls the default constructor
+//    Circle my_circle2(); // WARNING: THIS IS A FUNCTION PROTOTYPE
+//    Circle my_circle3{}; // calls the default constructor
+//}
 

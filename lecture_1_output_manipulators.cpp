@@ -2,7 +2,6 @@
 // Created by Home on 9/12/2021.
 //
 
-#include "lecture_one_output_manipulators.hpp"
 #include <iostream>
 #include <iomanip>
 
