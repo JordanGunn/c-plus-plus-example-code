@@ -5,13 +5,14 @@
 #include <iostream>
 using namespace std;
 
-// PUBLIC INHERITANCE
-// We are updating our Car and Ship class so that Make, Color, Year, Model
-// and the function void print_details() can be inherited from base class Vehicle.
+// By using public inheritance, the private members of the base
+// class are inaccessible in the derived class and in main. Protected
+// members of the base class are accessible to the derived class but not in
+// main. Public members of the base class are accessible to the derived
+// class and in main.
 //
-// So, we have removed these variables and function from the derived classes.
-// The following example shows the classes Car and Ship that inherits publicly
-// from the base class Vehicle.
+// Let’s look at the implementation using public inheritance:
+
 
 class Vehicle{
 protected:

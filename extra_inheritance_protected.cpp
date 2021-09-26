@@ -1,15 +1,17 @@
-//
+
 // Created by Home on 9/26/2021.
 //
 
 #include <iostream>
+
 using namespace std;
 
-//  By using private inheritance, the private data members and member
-// functions of the base class are inaccessible in the derived class and in main.
+// By using protected inheritance, the private members of the base class are
+// inaccessible in the derived class and in main. Protected and Public members
+// of the base class are accessible to the derived class but not in main and
+// become protected members of the derived class.
 //
-// Protected and Public members of the base class are accessible to the derived
-// class but not in main and become private members of the derived class.
+// Let’s take an example of protected inheritance:
 
 class Vehicle{
 
@@ -42,7 +44,7 @@ public:
     }
 };
 
-class Car: private Vehicle{
+class Car: protected Vehicle{
     string trunk_size;
 
 public:
@@ -62,12 +64,3 @@ public:
         // is accessible in derived class
     }
 };
-
-int main(){
-    Car car("Chevrolet", "Black", 2010, "Camaro", "9.1 cubic feet");
-    // car.Year = 2000;     // this will give error as Year is private
-    // car.Model = "Accord";   // this will give error as Model is protected
-
-    car.car_details();
-    //car.print_details();   // public functions of base class are inaccessible in main
-}
